@@ -1,5 +1,8 @@
+package org.example;
+
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
+
 
 public class StringHtmlCleaner {
     public static String main(String htmlString) {

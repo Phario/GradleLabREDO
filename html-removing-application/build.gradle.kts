@@ -13,11 +13,11 @@ repositories {
 dependencies {
     testImplementation(platform("org.junit:junit-bom:5.9.1"))
     testImplementation("org.junit.jupiter:junit-jupiter:5.9.1")
-    implementation project(":html-remover")
+    implementation(project(":html-remover"))
 }
 
 application {
-    mainClass = 'pl.edu.twoj.pakiet.Application'
+    mainClass = "Application"
 }
 
 tasks.test {
